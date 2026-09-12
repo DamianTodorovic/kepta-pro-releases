@@ -1,0 +1,14 @@
+KEPTA Enterprise
+================
+
+Copyright (c) 2026 Damian Todorovic. All rights reserved.
+
+The installers in this repository contain proprietary software. You may
+download them; using KEPTA Enterprise requires a license key issued by
+Damian Todorovic. No redistribution and no modification without express
+written permission.
+
+The open core of KEPTA (memory engine, MCP server, HTTP API) is licensed
+under the AGPL-3.0: https://github.com/DamianTodorovic/kepta
+
+Third-party components and their licenses: THIRD-PARTY-NOTICES.md
