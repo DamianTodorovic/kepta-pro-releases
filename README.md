@@ -31,6 +31,24 @@ Not sure which Mac you have? Apple menu → *About This Mac*: "Apple M…" means
 
 > Older guides say to right-click the app and choose *Open*. Apple removed that route in macOS 15; use one of the two above.
 
+## 🤖 Connect Claude Desktop or Cursor
+
+KEPTA ships its own MCP server — no Node.js, no npm. In the app, **Settings → MCP / API** shows the block for your installation, with a copy button. For KEPTA in *Applications* it is:
+
+```json
+{
+  "mcpServers": {
+    "kepta": {
+      "command": "/Applications/KEPTA.app/Contents/MacOS/KEPTA",
+      "args": ["/Applications/KEPTA.app/Contents/Resources/app.asar/dist/mcp-server.cjs"],
+      "env": { "ELECTRON_RUN_AS_NODE": "1" }
+    }
+  }
+}
+```
+
+For Claude Desktop, add the `kepta` entry to the `mcpServers` in `~/Library/Application Support/Claude/claude_desktop_config.json` and restart Claude. Every agent then reads and writes the same encrypted memory as the app.
+
 ## ✨ What you get
 
 - **Knowledge graph** — Force and Tree views, a time slider back to any day
