@@ -18,7 +18,7 @@
   <a href="README.de.md"><b>🇩🇪 Deutsch</b></a>
 </p>
 
-<p align="center"><img src="docs/demo.gif" alt="The knowledge graph of KEPTA Enterprise switching between its two views: Force, where connected notes cluster by physics, and Tree, a dendrogram from the root over the kind of knowledge to the note" width="900"></p>
+<p align="center"><img src="docs/demo.gif" alt="The knowledge graph of KEPTA Enterprise growing as the time slider runs through 18 months of notes, then switching between its two views: Force, where connected notes cluster by physics, and Tree, a dendrogram from the root over the kind of knowledge to the note" width="900"></p>
 
 ---
 
