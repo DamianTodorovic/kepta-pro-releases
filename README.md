@@ -40,15 +40,21 @@ You never brief it. There is one file on your computer; your assistants read it 
 
 ## 👀 See it
 
-| Everything you know, grouped by kind | Search that ranks by meaning |
+| Today — what changed since your last visit, and what needs a look | Activity — which AI app reads and writes what, live |
 |---|---|
-| ![The index of KEPTA Enterprise](docs/screenshots/01-index.png) | ![Search in KEPTA Enterprise](docs/screenshots/06-search.png) |
+| ![Today: two notes that disagree about a retainer, side by side, and what Claude added since the last visit](docs/screenshots/07-today.png) | ![Activity: Claude and Cursor searching and saving, live](docs/screenshots/09-activity.png) |
+| **Dossier — everything about a client on one page** | **Audit log — every access, sealed and checkable** |
+| ![A dossier for a client: key facts, timeline and documents](docs/screenshots/08-dossier.png) | ![The audit log after Check integrity: intact](docs/screenshots/10-audit.png) |
+| **Privacy shield — what a cloud AI would get to see** | **Connect your AI apps in one click** |
+| ![The privacy shield turning an email address, an IBAN and a phone number into placeholders](docs/screenshots/11-privacy.png) | ![Connect your AI apps: Claude Desktop and Cursor connected, the others one click away](docs/screenshots/12-connect.png) |
+| **Everything you know, grouped by kind — private notes included** | **Search that ranks by meaning** |
+| ![The index of KEPTA Enterprise with a private note](docs/screenshots/01-index.png) | ![Search in KEPTA Enterprise](docs/screenshots/06-search.png) |
 | **The knowledge graph — every note a node, every link an edge** | **The same knowledge as a tree** |
 | ![The knowledge graph, Force view](docs/screenshots/03-graph.png) | ![The knowledge graph, Tree view](docs/screenshots/04-dendrogram.png) |
-| **The editor — kinds of knowledge, `[[links]]`, validity** | **Settings — system status, encryption at rest, Device Sync** |
+| **The editor — kinds of knowledge, `[[links]]`, one switch for private** | **Settings — system status and encryption at rest** |
 | ![The editor](docs/screenshots/04-editor.png) | ![Settings with the system status](docs/screenshots/05-setup.png) |
 
-<sub>KEPTA Enterprise 2.11 on an invented demo corpus — every name and every entry was made up for these shots.</sub>
+<sub>KEPTA Enterprise 2.13 on an invented demo corpus — every name and every entry was made up for these shots. Claude and Cursor worked on it through the real MCP server.</sub>
 
 ## 💎 Why it feels different
 

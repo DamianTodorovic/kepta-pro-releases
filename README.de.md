@@ -40,15 +40,21 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 
 ## 👀 So sieht es aus
 
-| Alles, was du weißt, nach Art geordnet | Suche, die nach Bedeutung sortiert |
+| Today — was seit deinem letzten Besuch passiert ist und was einen Blick braucht | Activity — welche KI-App was liest und schreibt, live |
 |---|---|
-| ![Der Index von KEPTA Enterprise](docs/screenshots/01-index.png) | ![Die Suche in KEPTA Enterprise](docs/screenshots/06-search.png) |
+| ![Today: zwei Notizen, die sich bei einer Pauschale widersprechen, nebeneinander, und was Claude seit dem letzten Besuch ergänzt hat](docs/screenshots/07-today.png) | ![Activity: Claude und Cursor suchen und speichern, live](docs/screenshots/09-activity.png) |
+| **Dossier — alles über einen Mandanten auf einer Seite** | **Prüfprotokoll — jeder Zugriff, versiegelt und prüfbar** |
+| ![Ein Dossier zu einem Mandanten: Fakten, Zeitleiste und Dokumente](docs/screenshots/08-dossier.png) | ![Das Prüfprotokoll nach Check integrity: unverändert](docs/screenshots/10-audit.png) |
+| **Privatsphäre-Schild — was eine Cloud-KI zu sehen bekäme** | **KI-Apps mit einem Klick verbinden** |
+| ![Der Privatsphäre-Schild macht aus E-Mail-Adresse, IBAN und Telefonnummer Platzhalter](docs/screenshots/11-privacy.png) | ![KI-Apps verbinden: Claude Desktop und Cursor verbunden, die übrigen einen Klick entfernt](docs/screenshots/12-connect.png) |
+| **Alles, was du weißt, nach Art geordnet — private Notizen inklusive** | **Suche, die nach Bedeutung sortiert** |
+| ![Der Index von KEPTA Enterprise mit einer privaten Notiz](docs/screenshots/01-index.png) | ![Die Suche in KEPTA Enterprise](docs/screenshots/06-search.png) |
 | **Der Wissensgraph — jede Notiz ein Knoten, jeder Link eine Kante** | **Dasselbe Wissen als Baum** |
 | ![Der Wissensgraph, Ansicht Force](docs/screenshots/03-graph.png) | ![Der Wissensgraph, Ansicht Tree](docs/screenshots/04-dendrogram.png) |
-| **Der Editor — Wissensart, `[[Links]]`, Gültigkeit** | **Einstellungen — Systemstatus, Verschlüsselung, Device Sync** |
+| **Der Editor — Wissensart, `[[Links]]`, ein Schalter für privat** | **Einstellungen — Systemstatus und Verschlüsselung** |
 | ![Der Editor](docs/screenshots/04-editor.png) | ![Die Einstellungen mit dem Systemstatus](docs/screenshots/05-setup.png) |
 
-<sub>KEPTA Enterprise 2.11 mit einem erfundenen Demo-Bestand — jeder Name und jeder Eintrag ist für diese Bilder ausgedacht.</sub>
+<sub>KEPTA Enterprise 2.13 mit einem erfundenen Demo-Bestand — jeder Name und jeder Eintrag ist für diese Bilder ausgedacht. Claude und Cursor haben über den echten MCP-Server damit gearbeitet. Die Oberfläche ist englisch.</sub>
 
 ## 💎 Warum es sich anders anfühlt
 
