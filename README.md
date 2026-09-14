@@ -71,6 +71,9 @@ You never brief it. There is one file on your computer; your assistants read it 
 - **Recovery key in one click** (*Settings → System status*), ready for your password manager
 - **Your settings live inside the encrypted file** — the key for your AI provider included
 - **Nothing leaves your machine** unless you choose a cloud AI in the chat: the app listens on `127.0.0.1` only, with no account and no telemetry
+- **Privacy shield** — email addresses, phone numbers, IBANs, card numbers, passwords and keys become placeholders before a question goes to a cloud model; the answer shows the real values again. AI apps read your notes without secrets. On by default, with a live preview in Settings
+- **Private notes** — one switch in the editor, and that note is never shown to an AI app or sent to a cloud model
+- **Audit log** — every access to your knowledge, by you, by each AI app and by scripts; every entry is sealed with the SHA-256 of the one before, and *Check integrity* shows whether anything was changed or removed. Export as CSV
 - **Hardened desktop shell** — no Node in the window, sandbox on, a strict Content Security Policy
 - Rate limiting, Helmet and input validation on every route
 - **Your data is never a hostage:** without a valid license the window stays locked — never the data. The file stays on disk, encrypted, and readable by the [open core](https://github.com/DamianTodorovic/kepta)
@@ -138,6 +141,7 @@ You never brief it. There is one file on your computer; your assistants read it 
 - **Duplicate review** — groups side by side, keep the richest copy in one click, one undo for the whole batch
 - **Consolidation supersedes instead of deleting** — nothing is ever lost
 - **Episodic memories** grow out of your chat history
+- **Contradictions side by side** — two notes that name a different time, date or amount for the same thing; keep the newer, the older or both — the other is superseded, never deleted
 - **Activity feed** — what was saved, by whom, when
 
 </details>
@@ -146,6 +150,8 @@ You never brief it. There is one file on your computer; your assistants read it 
 <summary><strong>🤖 Agents (MCP)</strong></summary>
 
 - **The MCP server ships inside the app** — Claude Desktop, Cursor and every MCP client connect without Node.js or npm
+- **Connect in one click** — KEPTA finds Claude Desktop, Claude Code, Cursor, Windsurf and VS Code and adds itself; the old settings file stays next to it as a backup
+- **See live what your AI apps do** — which app is active right now and what it searched, saved or changed, by name: *Claude saved “…”*
 - **MCP 2026-07-28**, compatible with 2025-06-18 and 2024-11-05 — stdio and Streamable HTTP
 - **Eight tools** — search, save, update, delete, list, graph, consolidate, forget — every one with an `outputSchema` and `structuredContent`
 - **Write gate** (opt-in) — a local model decides ADD, UPDATE, DELETE or NOOP before a new memory is stored, so your agents do not pile up duplicates
@@ -169,6 +175,8 @@ You never brief it. There is one file on your computer; your assistants read it 
 
 - **A native app** for your Mac — Apple silicon and Intel
 - **Command palette (⌘K)** — everything without the mouse
+- **Today** — what is new since your last visit and who added it, open to-dos, what expires soon, and contradictions to resolve
+- **Dossier** — everything about a person, a project or a topic on one page: facts, a timeline, how-tos, documents, open to-dos; copy it as Markdown or keep it as a note
 - **Knowledge list** with readable previews, the source as a chip, part badges (2/5) and *Open file*; group by file, kind or period
 - **Tag filter** with counts
 - **Setup assistant** with a starter pack — ready in a minute

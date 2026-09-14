@@ -71,6 +71,9 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 - **Wiederherstellungsschlüssel mit einem Klick** (*Settings → System status*), bereit für deinen Passwort-Manager
 - **Deine Einstellungen liegen in der verschlüsselten Datei** — der Schlüssel für deinen KI-Anbieter eingeschlossen
 - **Nichts verlässt deinen Rechner**, außer du wählst im Chat eine Cloud-KI: die App lauscht nur auf `127.0.0.1`, ohne Konto und ohne Telemetrie
+- **Privatsphäre-Schild** — E-Mail-Adressen, Telefonnummern, IBANs, Kartennummern, Passwörter und Schlüssel werden zu Platzhaltern, bevor eine Frage an ein Cloud-Modell geht; die Antwort zeigt wieder die echten Werte. KI-Apps lesen deine Notizen ohne Geheimnisse. Ab Werk an, mit Live-Vorschau in den Einstellungen
+- **Private Notizen** — ein Schalter im Editor, und diese Notiz sieht nie eine KI-App und nie ein Cloud-Modell
+- **Prüfprotokoll** — jeder Zugriff auf dein Wissen, von dir, von jeder KI-App und von Skripten; jeder Eintrag ist mit dem SHA-256 des vorigen versiegelt, *Check integrity* zeigt, ob etwas geändert oder entfernt wurde. Export als CSV
 - **Gehärtete Desktop-Hülle** — kein Node im Fenster, Sandbox an, strenge Content Security Policy
 - Ratenbegrenzung, Helmet und Eingabeprüfung auf jeder Route
 - **Deine Daten sind nie Geisel:** ohne gültige Lizenz bleibt das Fenster gesperrt — nie die Daten. Die Datei bleibt auf der Festplatte, verschlüsselt, und lesbar für den [offenen Kern](https://github.com/DamianTodorovic/kepta)
@@ -138,6 +141,7 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 - **Dubletten prüfen** — Gruppen nebeneinander, die reichste Fassung mit einem Klick behalten, ein Rückgängig für den ganzen Stapel
 - **Zusammenführen löst ab, statt zu löschen** — nichts geht je verloren
 - **Episodische Erinnerungen** wachsen aus deinem Chatverlauf
+- **Widersprüche nebeneinander** — zwei Notizen, die für dieselbe Sache eine andere Uhrzeit, ein anderes Datum oder einen anderen Betrag nennen; die neuere behalten, die ältere oder beide — die andere wird abgelöst, nie gelöscht
 - **Aktivitätsverlauf** — was gespeichert wurde, von wem, wann
 
 </details>
@@ -146,6 +150,8 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 <summary><strong>🤖 Agenten (MCP)</strong></summary>
 
 - **Der MCP-Server steckt in der App** — Claude Desktop, Cursor und jeder MCP-Client verbinden sich ohne Node.js und ohne npm
+- **Mit einem Klick verbinden** — KEPTA findet Claude Desktop, Claude Code, Cursor, Windsurf und VS Code und trägt sich ein; die alte Einstellungsdatei bleibt als Sicherung daneben
+- **Live sehen, was deine KI-Apps tun** — welche App gerade aktiv ist und was sie gesucht, gespeichert oder geändert hat, mit Namen: *Claude saved „…“*
 - **MCP 2026-07-28**, kompatibel mit 2025-06-18 und 2024-11-05 — stdio und Streamable HTTP
 - **Acht Werkzeuge** — suchen, speichern, ändern, löschen, auflisten, Graph, zusammenführen, vergessen — jedes mit `outputSchema` und `structuredContent`
 - **Schreibschranke** (auf Wunsch) — ein lokales Modell entscheidet ADD, UPDATE, DELETE oder NOOP, bevor eine neue Erinnerung gespeichert wird, damit deine Agenten keine Dubletten stapeln
@@ -169,6 +175,8 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 
 - **Eine native App** für deinen Mac — Apple Silicon und Intel
 - **Befehlspalette (⌘K)** — alles ohne Maus
+- **Today** — was seit deinem letzten Besuch neu ist und wer es hinzugefügt hat, offene To-dos, was bald abläuft, und Widersprüche zum Auflösen
+- **Dossier** — alles über eine Person, ein Projekt oder ein Thema auf einer Seite: Fakten, Zeitleiste, Anleitungen, Dokumente, offene To-dos; als Markdown kopieren oder als Notiz behalten
 - **Wissensliste** mit lesbarer Vorschau, der Quelle als Chip, Teilangaben (2/5) und *Open file*; gruppiert nach Datei, Art oder Zeitraum
 - **Tag-Filter** mit Zählern
 - **Einrichtungsassistent** mit Starterpaket — in einer Minute bereit
