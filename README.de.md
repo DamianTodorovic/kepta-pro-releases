@@ -1,5 +1,5 @@
 <p align="center"><img src="kepta-logo.svg" width="96" alt="KEPTA"></p>
-<h1 align="center">KEPTA Enterprise</h1>
+<h1 align="center">KEPTA Pro</h1>
 <p align="center"><strong>Deine KI vergisst dich nach jedem Chat.<br>KEPTA erinnert sich — auf deinem eigenen Rechner, in einer verschlüsselten Datei.</strong></p>
 
 <p align="center"><sub>Die Desktop-App für das Gedächtnis deiner KI · lokal · verschlüsselt · keine Cloud · kein Konto · keine Telemetrie</sub></p>
@@ -14,11 +14,11 @@
 
 <p align="center">
   <a href="https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest"><b>⬇️ Für den Mac herunterladen</b></a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/damian-todorovic-244235434"><b>🔑 Lizenz holen</b></a> &nbsp;·&nbsp;
+  <a href="#-so-bekommst-du-kepta"><b>🔑 Lizenz holen</b></a> &nbsp;·&nbsp;
   <a href="README.md"><b>🇬🇧 English</b></a>
 </p>
 
-<p align="center"><img src="docs/demo.gif" alt="Der Wissensgraph von KEPTA Enterprise wächst, während der Zeitregler 18 Monate an Notizen durchläuft, und wechselt dann zwischen seinen zwei Ansichten: Force, in der verbundene Notizen sich physikalisch zusammenfinden, und Tree, ein Baum von der Wurzel über die Wissensart bis zur Notiz" width="900"></p>
+<p align="center"><img src="docs/demo.gif" alt="Der Wissensgraph von KEPTA Pro wächst, während der Zeitregler 18 Monate an Notizen durchläuft, und wechselt dann zwischen seinen zwei Ansichten: Force, in der verbundene Notizen sich physikalisch zusammenfinden, und Tree, ein Baum von der Wurzel über die Wissensart bis zur Notiz" width="900"></p>
 
 ---
 
@@ -48,13 +48,13 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 | **Privatsphäre-Schild — was eine Cloud-KI zu sehen bekäme** | **KI-Apps mit einem Klick verbinden** |
 | ![Der Privatsphäre-Schild macht aus E-Mail-Adresse, IBAN und Telefonnummer Platzhalter](docs/screenshots/11-privacy.png) | ![KI-Apps verbinden: Claude Desktop und Cursor verbunden, die übrigen einen Klick entfernt](docs/screenshots/12-connect.png) |
 | **Alles, was du weißt, nach Art geordnet — private Notizen inklusive** | **Suche, die nach Bedeutung sortiert** |
-| ![Der Index von KEPTA Enterprise mit einer privaten Notiz](docs/screenshots/01-index.png) | ![Die Suche in KEPTA Enterprise](docs/screenshots/06-search.png) |
+| ![Der Index von KEPTA Pro mit einer privaten Notiz](docs/screenshots/01-index.png) | ![Die Suche in KEPTA Pro](docs/screenshots/06-search.png) |
 | **Der Wissensgraph — jede Notiz ein Knoten, jeder Link eine Kante** | **Dasselbe Wissen als Baum** |
 | ![Der Wissensgraph, Ansicht Force](docs/screenshots/03-graph.png) | ![Der Wissensgraph, Ansicht Tree](docs/screenshots/04-dendrogram.png) |
 | **Der Editor — Wissensart, `[[Links]]`, ein Schalter für privat** | **Einstellungen — Systemstatus und Verschlüsselung** |
 | ![Der Editor](docs/screenshots/04-editor.png) | ![Die Einstellungen mit dem Systemstatus](docs/screenshots/05-setup.png) |
 
-<sub>KEPTA Enterprise 2.13 mit einem erfundenen Demo-Bestand — jeder Name und jeder Eintrag ist für diese Bilder ausgedacht. Claude und Cursor haben über den echten MCP-Server damit gearbeitet. Die Oberfläche ist englisch.</sub>
+<sub>KEPTA Pro 2.13 mit einem erfundenen Demo-Bestand — jeder Name und jeder Eintrag ist für diese Bilder ausgedacht. Claude und Cursor haben über den echten MCP-Server damit gearbeitet. Die Oberfläche ist englisch.</sub>
 
 ## 💎 Warum es sich anders anfühlt
 
@@ -67,7 +67,7 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 | 📥 **Alles kommt mühelos hinein** | PDFs und Dokumente hineinziehen, Webseiten ausschneiden, einen Eingangsordner beobachten, ein Obsidian-Vault importieren — oder KEPTA die Dokumente finden lassen, die schon auf deinem Rechner liegen, mit Vorschau vorher. |
 | 🔒 **Deins, und nur deins** | Eine verschlüsselte Datei auf deiner Festplatte. Der Schlüssel liegt im macOS-Schlüsselbund. Kein Konto, keine Telemetrie, keine Cloud — KEPTA ruft nirgends an, nicht einmal zur Lizenzprüfung. |
 
-## 🧩 Alles, was KEPTA Enterprise kann
+## 🧩 Alles, was KEPTA Pro kann
 
 <details open>
 <summary><strong>🔒 Sicherheit &amp; Datenschutz</strong></summary>
@@ -207,12 +207,26 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 - **Kein Nach-Hause-Telefonieren** — kein Konto, keine Telemetrie; die Lizenz ist eine Ed25519-Signatur, geprüft auf deinem Rechner.
 - **Jeder Download hat eine Prüfsumme** — jedes Release nennt die SHA-256 jeder Datei.
 
-## 🚀 So bekommst du KEPTA Enterprise
+## 🚀 So bekommst du KEPTA
 
-1. **Lizenzschlüssel holen** — [schreib Damian Todorovic auf LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434). Der Schlüssel ist an deinen Namen gebunden.
-2. **Herunterladen** — die Datei für deinen Mac aus dem [neuesten Release](https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest).
-3. **Installieren und öffnen** (siehe unten), Name und Schlüssel eintragen — die Aktivierung läuft offline.
-4. **Deine KI verbinden** — ein Block, kopiert aus *Settings → MCP / API*.
+**KEPTA gibt es in drei Stufen — eine App, ein Lizenzschlüssel, alles offline geprüft.**
+
+| Stufe | Für | Preis | Was dazu kommt |
+|---|---|---|---|
+| **Core** | Entwickler & KI-Agenten | **0 €** — [Open Source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), für immer | Die komplette Memory-Engine: Verschlüsselung, Hybrid-Suche, MCP-Server, HTTP-API, Python-Client, CLI, Browser-UI, PDF- & Obsidian-Import, Device-Sync |
+| **Pro** | Einzelpersonen & Power User | **120 €/Jahr** (oder 12 €/Monat) | Das ganze Desktop-Erlebnis: Wissensgraph, Chat mit deinem Gedächtnis, Dossiers, Today, Privacy-Shield, Computer-Scan, Clipper, Inbox, Auto-Learn |
+| **Business** | Teams, Praxen & Kanzleien | **25 €/Nutzer/Monat**, jährlich abgerechnet | Alles aus Pro, plus Team-Gedächtnis: geteiltes Wissen, Workspaces, Rollen und eine Admin-Konsole (in Entwicklung) |
+| **Enterprise** | Organisationen | **Preis nach Absprache** — nach Größe und Umsatz deines Unternehmens | Alles aus Business, plus SSO, zentrale Richtlinien, MDM-/Air-gapped-Ausrollung, Security-Dokumentation und Support-Vereinbarung (in Entwicklung) |
+
+> Jede Lizenz ist ein persönlicher Schlüssel, an deinen Namen gebunden, offline aktiviert — kein Konto, keine Abo-Falle, kein Nach-Hause-Telefonieren. Ohne gültigen Schlüssel bleibt das Fenster gesperrt, nie die Daten.
+
+### So bekommst du eine Lizenz
+
+1. **Schon einen Lizenzschlüssel?** → [Neueste Version herunterladen](https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest) und mit Namen und Schlüssel aktivieren.
+2. **KEPTA Pro für dich** → schreib [Damian Todorovic auf LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434) — deinen persönlichen Schlüssel bekommst du in der Antwort. Der Online-Checkout kommt.
+3. **KEPTA Business für ein Team** → derselbe Kontakt; sag Damian, wie viele Seats du brauchst, und du bekommst einen Schlüssel je Person.
+4. **KEPTA Enterprise** → derselbe Kontakt; Damian bespricht Umfang, Ausrollung und den Preis mit dir — passend zu deiner Organisation.
+5. **Deine KI verbinden** — ein Block, kopiert aus *Settings → MCP / API*.
 
 ### 📦 Welche Datei brauche ich?
 
@@ -300,10 +314,10 @@ Das aktuelle Release ist für macOS. Für Windows oder Linux [schreib mir](https
 
 ## 👋 Wer KEPTA baut
 
-KEPTA baut **Damian Todorovic**. Fragen, eine Lizenz für dich, deine Praxis oder dein ganzes Team: **[schreib mir auf LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434)**.
+KEPTA baut **Damian Todorovic**. Fragen, eine Pro-Lizenz für dich, ein Business-Setup für deine Praxis oder Kanzlei, eine Enterprise-Ausrollung für deine Organisation: **[schreib mir auf LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434)**.
 
 ## 📄 Lizenz
 
-KEPTA Enterprise ist proprietär — siehe [LICENSE](LICENSE). Die Gedächtnis-Engine darunter ist Open Source unter der AGPL-3.0: [DamianTodorovic/kepta](https://github.com/DamianTodorovic/kepta). Fremdkomponenten und ihre Lizenzen: [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+KEPTA Pro ist proprietär — siehe [LICENSE](LICENSE). Die Gedächtnis-Engine darunter ist Open Source unter der AGPL-3.0: [DamianTodorovic/kepta](https://github.com/DamianTodorovic/kepta). Fremdkomponenten und ihre Lizenzen: [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 <p align="center"><sub><strong>KEPTA</strong> — behält, was zählt.</sub></p>
