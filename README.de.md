@@ -223,7 +223,7 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 ### So bekommst du eine Lizenz
 
 1. **Schon einen Lizenzschlüssel?** → [Neueste Version herunterladen](https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest) und mit Namen und Schlüssel aktivieren.
-2. **KEPTA Pro für dich** → schreib [Damian Todorovic auf LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434) — deinen persönlichen Schlüssel bekommst du in der Antwort. Der Online-Checkout kommt.
+2. **KEPTA Pro für dich** → schreib [Damian Todorovic auf LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434) — deinen persönlichen Schlüssel bekommst du in der Antwort.
 3. **KEPTA Business für ein Team** → derselbe Kontakt; sag Damian, wie viele Seats du brauchst, und du bekommst einen Schlüssel je Person.
 4. **KEPTA Enterprise** → derselbe Kontakt; Damian bespricht Umfang, Ausrollung und den Preis mit dir — passend zu deiner Organisation.
 5. **Deine KI verbinden** — ein Block, kopiert aus *Settings → MCP / API*.

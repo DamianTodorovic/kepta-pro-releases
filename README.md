@@ -223,7 +223,7 @@ You never brief it. There is one file on your computer; your assistants read it 
 ### How to get a license
 
 1. **Have a license key already?** → [Download the latest release](https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest) and activate it with your name and key.
-2. **KEPTA Pro for yourself** → write to [Damian Todorovic on LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434) — you get your personal key by reply. Online checkout is coming.
+2. **KEPTA Pro for yourself** → write to [Damian Todorovic on LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434) — you get your personal key by reply.
 3. **KEPTA Business for a team** → same contact; tell Damian how many seats you need and you get a keys for each of them.
 4. **KEPTA Enterprise** → same contact; Damian will discuss scope, deployment and the price with you — shaped to your organization.
 5. **Connect your AI** — one block, copied from *Settings → MCP / API*.
