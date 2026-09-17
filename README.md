@@ -6,14 +6,14 @@
 
 <p align="center">
   <a href="https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/DamianTodorovic/kepta-enterprise-releases?label=Download&color=b3543f"></a>
-  <img alt="macOS" src="https://img.shields.io/badge/macOS-Apple%20silicon%20%7C%20Intel-lightgrey">
+  <img alt="macOS and Windows" src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows-Apple%20silicon%20%7C%20Intel%20%7C%20x64%20%7C%20ARM-lightgrey">
   <img alt="Encrypted" src="https://img.shields.io/badge/encrypted-SQLCipher%204%20%C2%B7%20AES--256-green">
   <img alt="MCP" src="https://img.shields.io/badge/MCP-Claude%20%C2%B7%20Cursor%20%C2%B7%20any%20client-blue">
   <a href="https://github.com/DamianTodorovic/kepta"><img alt="Open core" src="https://img.shields.io/badge/open%20core-AGPL--3.0-blue"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest"><b>⬇️ Download for Mac</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest"><b>⬇️ Download for Mac &amp; Windows</b></a> &nbsp;·&nbsp;
   <a href="#-get-kepta"><b>🔑 Get a license</b></a> &nbsp;·&nbsp;
   <a href="README.de.md"><b>🇩🇪 Deutsch</b></a>
 </p>
@@ -65,7 +65,7 @@ You never brief it. There is one file on your computer; your assistants read it 
 | 🔍 **Search that finds what you mean** | Full text, meaning (vectors) and the knowledge graph in one ranking. The best hit is on top — for you and for your agents, through the very same code. |
 | 🕸️ **You can see what you know** | An interactive knowledge graph in two views, Force and Tree, with a time slider. It stays fluid at 3 000 notes and 9 500 connections, at 60 fps. |
 | 📥 **Everything goes in, effortlessly** | Drag in PDFs and documents, clip web pages, watch an inbox folder, import an Obsidian vault — or let KEPTA find the documents already on your computer, with a preview first. |
-| 🔒 **Yours, and only yours** | One encrypted file on your disk. The key lives in your macOS Keychain. No account, no telemetry, no cloud — KEPTA never phones home, not even to check the license. |
+| 🔒 **Yours, and only yours** | One encrypted file on your disk. The key lives in your system's keychain — the macOS Keychain, on Windows protected by DPAPI and bound to your account. No account, no telemetry, no cloud — KEPTA never phones home, not even to check the license. |
 
 ## 🧩 Everything KEPTA Pro does
 
@@ -179,8 +179,8 @@ You never brief it. There is one file on your computer; your assistants read it 
 <details open>
 <summary><strong>🖥️ The app</strong></summary>
 
-- **A native app** for your Mac — Apple silicon and Intel
-- **Command palette (⌘K)** — everything without the mouse
+- **A native app** for Mac (Apple silicon and Intel) and Windows (x64 and ARM)
+- **Command palette (⌘K / Ctrl+K)** — everything without the mouse
 - **Today** — what is new since your last visit and who added it, open to-dos, what expires soon, and contradictions to resolve
 - **Dossier** — everything about a person, a project or a topic on one page: facts, a timeline, how-tos, documents, open to-dos; copy it as Markdown or keep it as a note
 - **Knowledge list** with readable previews, the source as a chip, part badges (2/5) and *Open file*; group by file, kind or period
@@ -209,7 +209,7 @@ You never brief it. There is one file on your computer; your assistants read it 
 
 ## 🚀 Get KEPTA
 
-**KEPTA comes in three tiers — one app, one license key, everything checked offline.**
+**KEPTA comes in four tiers — a free open-source core, and one desktop app unlocked by one license key, everything checked offline.**
 
 | Tier | For | Price | What it adds |
 |---|---|---|---|
@@ -224,20 +224,22 @@ You never brief it. There is one file on your computer; your assistants read it 
 
 1. **Have a license key already?** → [Download the latest release](https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest) and activate it with your name and key.
 2. **KEPTA Pro for yourself** → write to [Damian Todorovic on LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434) — you get your personal key by reply.
-3. **KEPTA Business for a team** → same contact; tell Damian how many seats you need and you get a keys for each of them.
+3. **KEPTA Business for a team** → same contact; tell Damian how many seats you need and you get a key for each of them.
 4. **KEPTA Enterprise** → same contact; Damian will discuss scope, deployment and the price with you — shaped to your organization.
 5. **Connect your AI** — one block, copied from *Settings → MCP / API*.
 
 ### 📦 Which file do I need?
 
-| Your Mac | File |
+| Your computer | File |
 |---|---|
-| Apple silicon (M1 and later) | `KEPTA-<version>-mac-arm64.dmg` |
-| Intel processor | `KEPTA-<version>-mac-x64.dmg` |
+| Mac with Apple silicon (M1 and later) | `KEPTA-<version>-mac-arm64.dmg` |
+| Mac with an Intel processor | `KEPTA-<version>-mac-x64.dmg` |
+| Windows (Intel/AMD) | `KEPTA-<version>-win-x64.exe` |
+| Windows on ARM | `KEPTA-<version>-win-arm64.exe` |
 
-Not sure? Apple menu → *About This Mac*: "Apple M…" means `arm64`, "Intel" means `x64`. Windows or Linux: [ask me](https://www.linkedin.com/in/damian-todorovic-244235434).
+Not sure? On a Mac: Apple menu → *About This Mac* — "Apple M…" means `arm64`, "Intel" means `x64`. On Windows: *Settings → System → About → System type*. Linux: [ask me](https://www.linkedin.com/in/damian-todorovic-244235434).
 
-**Check your download:** `shasum -a 256 ~/Downloads/KEPTA-*.dmg` must print the number listed in the release.
+**Check your download:** it must print the number listed in the release — on a Mac `shasum -a 256 ~/Downloads/KEPTA-*.dmg`, on Windows, in your Downloads folder, `certutil -hashfile KEPTA-<version>-win-x64.exe SHA256`.
 
 ### 🍎 Install on macOS
 
@@ -250,9 +252,17 @@ Not sure? Apple menu → *About This Mac*: "Apple M…" means `arm64`, "Intel" m
 
 > Older guides say to right-click the app and choose *Open*. Apple removed that route in macOS 15; use one of the two above.
 
+### 🪟 Install on Windows
+
+1. Run the installer `KEPTA-<version>-win-x64.exe` (or `-win-arm64.exe` on Windows on ARM).
+2. The installer is not signed yet, so Windows SmartScreen says "Windows protected your PC": click **More info** → **Run anyway**. Once.
+3. Follow the installer, start KEPTA and enter your name and your license key.
+
 ### 🤖 Connect Claude Desktop or Cursor
 
-KEPTA ships its own MCP server — no Node.js, no npm. *Settings → MCP / API* shows the block for your installation, with a copy button. For KEPTA in *Applications* it is:
+KEPTA ships its own MCP server — no Node.js, no npm. The quickest way: *Settings → MCP / API → Connect your AI apps* adds KEPTA to Claude Desktop, Claude Code, Cursor, Windsurf or VS Code with one click each.
+
+By hand: *Settings → MCP / API* shows the block for your installation, with a copy button. For KEPTA in *Applications* on a Mac it is:
 
 ```json
 {
@@ -266,7 +276,7 @@ KEPTA ships its own MCP server — no Node.js, no npm. *Settings → MCP / API* 
 }
 ```
 
-For Claude Desktop, add the `kepta` entry to the `mcpServers` in `~/Library/Application Support/Claude/claude_desktop_config.json` and restart Claude. Every agent then reads and writes the same encrypted memory as the app.
+For Claude Desktop, add the `kepta` entry to the `mcpServers` in `~/Library/Application Support/Claude/claude_desktop_config.json` (on Windows `%APPDATA%\Claude\claude_desktop_config.json`) and restart Claude. Every agent then reads and writes the same encrypted memory as the app.
 
 ## ❓ Questions
 
@@ -309,7 +319,7 @@ Yes. The interface is English; German notes and German questions work as well as
 <details>
 <summary><strong>Windows or Linux?</strong></summary>
 
-The current release is for macOS. For Windows or Linux, [write to me](https://www.linkedin.com/in/damian-todorovic-244235434).</details>
+KEPTA runs on macOS (Apple silicon and Intel) and Windows (x64 and ARM) — since 2.13.1 every release has the installers for both. For Linux, [write to me](https://www.linkedin.com/in/damian-todorovic-244235434).</details>
 
 ## 👋 Who builds KEPTA
 

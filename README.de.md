@@ -6,14 +6,14 @@
 
 <p align="center">
   <a href="https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/DamianTodorovic/kepta-enterprise-releases?label=Download&color=b3543f"></a>
-  <img alt="macOS" src="https://img.shields.io/badge/macOS-Apple%20silicon%20%7C%20Intel-lightgrey">
+  <img alt="macOS und Windows" src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows-Apple%20silicon%20%7C%20Intel%20%7C%20x64%20%7C%20ARM-lightgrey">
   <img alt="Verschlüsselt" src="https://img.shields.io/badge/verschl%C3%BCsselt-SQLCipher%204%20%C2%B7%20AES--256-green">
   <img alt="MCP" src="https://img.shields.io/badge/MCP-Claude%20%C2%B7%20Cursor%20%C2%B7%20jeder%20Client-blue">
   <a href="https://github.com/DamianTodorovic/kepta"><img alt="Offener Kern" src="https://img.shields.io/badge/offener%20Kern-AGPL--3.0-blue"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest"><b>⬇️ Für den Mac herunterladen</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest"><b>⬇️ Für Mac &amp; Windows herunterladen</b></a> &nbsp;·&nbsp;
   <a href="#-so-bekommst-du-kepta"><b>🔑 Lizenz holen</b></a> &nbsp;·&nbsp;
   <a href="README.md"><b>🇬🇧 English</b></a>
 </p>
@@ -65,7 +65,7 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 | 🔍 **Suche, die versteht, was du meinst** | Volltext, Bedeutung (Vektoren) und Wissensgraph in einer Rangfolge. Der beste Treffer steht oben — für dich und für deine Agenten, über denselben Code. |
 | 🕸️ **Du siehst, was du weißt** | Ein interaktiver Wissensgraph in zwei Ansichten, Force und Tree, mit Zeitregler. Er bleibt flüssig bei 3 000 Notizen und 9 500 Verbindungen, mit 60 fps. |
 | 📥 **Alles kommt mühelos hinein** | PDFs und Dokumente hineinziehen, Webseiten ausschneiden, einen Eingangsordner beobachten, ein Obsidian-Vault importieren — oder KEPTA die Dokumente finden lassen, die schon auf deinem Rechner liegen, mit Vorschau vorher. |
-| 🔒 **Deins, und nur deins** | Eine verschlüsselte Datei auf deiner Festplatte. Der Schlüssel liegt im macOS-Schlüsselbund. Kein Konto, keine Telemetrie, keine Cloud — KEPTA ruft nirgends an, nicht einmal zur Lizenzprüfung. |
+| 🔒 **Deins, und nur deins** | Eine verschlüsselte Datei auf deiner Festplatte. Der Schlüssel liegt im Schlüsselbund des Systems — auf dem Mac im macOS-Schlüsselbund, unter Windows durch DPAPI geschützt und an dein Konto gebunden. Kein Konto, keine Telemetrie, keine Cloud — KEPTA ruft nirgends an, nicht einmal zur Lizenzprüfung. |
 
 ## 🧩 Alles, was KEPTA Pro kann
 
@@ -179,8 +179,8 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 <details open>
 <summary><strong>🖥️ Die App</strong></summary>
 
-- **Eine native App** für deinen Mac — Apple Silicon und Intel
-- **Befehlspalette (⌘K)** — alles ohne Maus
+- **Eine native App** für Mac (Apple Silicon und Intel) und Windows (x64 und ARM)
+- **Befehlspalette (⌘K / Strg+K)** — alles ohne Maus
 - **Today** — was seit deinem letzten Besuch neu ist und wer es hinzugefügt hat, offene To-dos, was bald abläuft, und Widersprüche zum Auflösen
 - **Dossier** — alles über eine Person, ein Projekt oder ein Thema auf einer Seite: Fakten, Zeitleiste, Anleitungen, Dokumente, offene To-dos; als Markdown kopieren oder als Notiz behalten
 - **Wissensliste** mit lesbarer Vorschau, der Quelle als Chip, Teilangaben (2/5) und *Open file*; gruppiert nach Datei, Art oder Zeitraum
@@ -209,7 +209,7 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 
 ## 🚀 So bekommst du KEPTA
 
-**KEPTA gibt es in drei Stufen — eine App, ein Lizenzschlüssel, alles offline geprüft.**
+**KEPTA gibt es in vier Stufen — einen kostenlosen Open-Source-Kern und eine Desktop-App, freigeschaltet mit einem Lizenzschlüssel, alles offline geprüft.**
 
 | Stufe | Für | Preis | Was dazu kommt |
 |---|---|---|---|
@@ -230,14 +230,16 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 
 ### 📦 Welche Datei brauche ich?
 
-| Dein Mac | Datei |
+| Dein Rechner | Datei |
 |---|---|
-| Apple Silicon (M1 und neuer) | `KEPTA-<version>-mac-arm64.dmg` |
-| Intel-Prozessor | `KEPTA-<version>-mac-x64.dmg` |
+| Mac mit Apple Silicon (M1 und neuer) | `KEPTA-<version>-mac-arm64.dmg` |
+| Mac mit Intel-Prozessor | `KEPTA-<version>-mac-x64.dmg` |
+| Windows (Intel/AMD) | `KEPTA-<version>-win-x64.exe` |
+| Windows auf ARM | `KEPTA-<version>-win-arm64.exe` |
 
-Unsicher? Apple-Menü → *Über diesen Mac*: „Apple M…“ heißt `arm64`, „Intel“ heißt `x64`. Windows oder Linux: [frag mich](https://www.linkedin.com/in/damian-todorovic-244235434).
+Unsicher? Auf dem Mac: Apple-Menü → *Über diesen Mac* — „Apple M…“ heißt `arm64`, „Intel“ heißt `x64`. Unter Windows: *Einstellungen → System → Info → Systemtyp*. Linux: [frag mich](https://www.linkedin.com/in/damian-todorovic-244235434).
 
-**Download prüfen:** `shasum -a 256 ~/Downloads/KEPTA-*.dmg` muss die Zahl aus dem Release ausgeben.
+**Download prüfen:** Die Ausgabe muss die Zahl aus dem Release zeigen — auf dem Mac `shasum -a 256 ~/Downloads/KEPTA-*.dmg`, unter Windows im Ordner Downloads `certutil -hashfile KEPTA-<version>-win-x64.exe SHA256`.
 
 ### 🍎 Installation auf macOS
 
@@ -250,9 +252,17 @@ Unsicher? Apple-Menü → *Über diesen Mac*: „Apple M…“ heißt `arm64`, �
 
 > Ältere Anleitungen sagen: Rechtsklick auf die App und *Öffnen*. Diesen Weg hat Apple in macOS 15 entfernt; nimm einen der zwei oben.
 
+### 🪟 Installation unter Windows
+
+1. Den Installer `KEPTA-<version>-win-x64.exe` starten (auf Windows mit ARM `-win-arm64.exe`).
+2. Der Installer ist noch nicht signiert, deshalb meldet Windows SmartScreen „Der Computer wurde durch Windows geschützt“: **Weitere Informationen** → **Trotzdem ausführen**. Einmal.
+3. Dem Installer folgen, KEPTA starten und Namen und Lizenzschlüssel eintragen.
+
 ### 🤖 Claude Desktop oder Cursor verbinden
 
-KEPTA bringt seinen eigenen MCP-Server mit — kein Node.js, kein npm. *Settings → MCP / API* zeigt den Block für deine Installation, mit Kopier-Knopf. Für KEPTA in *Programme* lautet er:
+KEPTA bringt seinen eigenen MCP-Server mit — kein Node.js, kein npm. Am schnellsten: *Settings → MCP / API → Connect your AI apps* trägt KEPTA mit je einem Klick in Claude Desktop, Claude Code, Cursor, Windsurf oder VS Code ein.
+
+Von Hand: *Settings → MCP / API* zeigt den Block für deine Installation, mit Kopier-Knopf. Für KEPTA in *Programme* auf dem Mac lautet er:
 
 ```json
 {
@@ -266,7 +276,7 @@ KEPTA bringt seinen eigenen MCP-Server mit — kein Node.js, kein npm. *Settings
 }
 ```
 
-Für Claude Desktop trägst du den Eintrag `kepta` unter `mcpServers` in `~/Library/Application Support/Claude/claude_desktop_config.json` ein und startest Claude neu. Danach lesen und schreiben alle Agenten dasselbe verschlüsselte Gedächtnis wie die App.
+Für Claude Desktop trägst du den Eintrag `kepta` unter `mcpServers` in `~/Library/Application Support/Claude/claude_desktop_config.json` ein (unter Windows `%APPDATA%\Claude\claude_desktop_config.json`) und startest Claude neu. Danach lesen und schreiben alle Agenten dasselbe verschlüsselte Gedächtnis wie die App.
 
 ## ❓ Fragen
 
@@ -309,7 +319,7 @@ Ja. Die Oberfläche ist englisch; deutsche Notizen und deutsche Fragen funktioni
 <details>
 <summary><strong>Windows oder Linux?</strong></summary>
 
-Das aktuelle Release ist für macOS. Für Windows oder Linux [schreib mir](https://www.linkedin.com/in/damian-todorovic-244235434).
+KEPTA läuft auf macOS (Apple Silicon und Intel) und Windows (x64 und ARM) — seit 2.13.1 enthält jedes Release die Installer für beide. Für Linux [schreib mir](https://www.linkedin.com/in/damian-todorovic-244235434).
 </details>
 
 ## 👋 Wer KEPTA baut
