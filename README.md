@@ -5,7 +5,7 @@
 <p align="center"><sub>The desktop app for your AI's memory · local · encrypted at rest · no cloud · no account · no telemetry</sub></p>
 
 <p align="center">
-  <a href="https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/DamianTodorovic/kepta-enterprise-releases?label=Download&color=b3543f"></a>
+  <a href="https://github.com/DamianTodorovic/kepta-pro-releases/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/DamianTodorovic/kepta-pro-releases?label=Download&color=b3543f"></a>
   <img alt="macOS and Windows" src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows-Apple%20silicon%20%7C%20Intel%20%7C%20x64%20%7C%20ARM-lightgrey">
   <img alt="Encrypted" src="https://img.shields.io/badge/encrypted-SQLCipher%204%20%C2%B7%20AES--256-green">
   <img alt="MCP" src="https://img.shields.io/badge/MCP-Claude%20%C2%B7%20Cursor%20%C2%B7%20any%20client-blue">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest"><b>⬇️ Download for Mac &amp; Windows</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/DamianTodorovic/kepta-pro-releases/releases/latest"><b>⬇️ Download for Mac &amp; Windows</b></a> &nbsp;·&nbsp;
   <a href="#-get-kepta"><b>🔑 Get a license</b></a> &nbsp;·&nbsp;
   <a href="README.de.md"><b>🇩🇪 Deutsch</b></a>
 </p>
@@ -82,7 +82,7 @@ You never brief it. There is one file on your computer; your assistants read it 
 - **Audit log** — every access to your knowledge, by you, by each AI app and by scripts; every entry is sealed with the SHA-256 of the one before, and *Check integrity* shows whether anything was changed or removed. Export as CSV
 - **Hardened desktop shell** — no Node in the window, sandbox on, a strict Content Security Policy
 - Rate limiting, Helmet and input validation on every route
-- **Your data is never a hostage:** without a valid license the window stays locked — never the data. The file stays on disk, encrypted, and readable by the [open core](https://github.com/DamianTodorovic/kepta)
+- **Your data is never a hostage:** without a key the app runs as the Free plan with generous daily limits — and your data is never locked. The file stays on disk, encrypted, and readable by the [open core](https://github.com/DamianTodorovic/kepta)
 
 </details>
 
@@ -209,24 +209,22 @@ You never brief it. There is one file on your computer; your assistants read it 
 
 ## 🚀 Get KEPTA
 
-**KEPTA comes in four tiers — a free open-source core, and one desktop app unlocked by one license key, everything checked offline.**
+**KEPTA comes in three tiers — a free open-source core, one desktop app that is free to use every day and unlocks fully with one license key, and Enterprise for organizations. Everything checks offline.**
 
-| Tier | For | Price | What it adds |
+| Tier | For | Price | What you get |
 |---|---|---|---|
 | **Core** | Developers & AI agents | **€0** — [open source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), forever | The full memory engine: encryption, hybrid search, MCP server, HTTP API, Python client, CLI, browser UI, PDF & Obsidian import, device sync |
-| **Pro** | Individuals & power users | **€120/year** (or €12/month) | The whole desktop experience: knowledge graph, chat with your memory, dossiers, Today, privacy shield, computer scan, clipper, inbox, auto-learn |
-| **Business** | Teams, practices & firms | **€25/user/month**, billed yearly | Everything in Pro, plus team memory: shared knowledge, workspaces, roles and an admin console (in development) |
-| **Enterprise** | Organizations | **Price by agreement** — shaped to your company's size and revenue | Everything in Business, plus SSO, central policies, MDM/air-gapped deployment, security documentation and a support agreement (in development) |
+| **Pro** | Individuals & power users | **€12/month or €120/year** — self-serve | The whole desktop experience, without limits: knowledge graph, chat with your memory, dossiers, Today, privacy shield, computer scan, clipper, inbox, auto-learn. Bought from inside the app; checked offline |
+| **Enterprise** | Teams, practices & organizations | **By agreement** | Everything in Pro, plus team memory (shared knowledge, workspaces, roles, admin console), SSO, central policies, MDM/air-gapped deployment, security documentation and a support agreement |
 
-> Every license is a personal key bound to your name, activated offline — no account, no subscription lock-in, no phone-home. Without a valid key the window stays locked, never the data.
+> Every license is a personal key bound to your name, activated offline — no account, no subscription lock-in, no phone-home. Without a key the app runs as the Free plan with generous daily limits — your data is never locked.
 
 ### How to get a license
 
-1. **Have a license key already?** → [Download the latest release](https://github.com/DamianTodorovic/kepta-enterprise-releases/releases/latest) and activate it with your name and key.
-2. **KEPTA Pro for yourself** → write to [Damian Todorovic on LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434) — you get your personal key by reply.
-3. **KEPTA Business for a team** → same contact; tell Damian how many seats you need and you get a key for each of them.
-4. **KEPTA Enterprise** → same contact; Damian will discuss scope, deployment and the price with you — shaped to your organization.
-5. **Connect your AI** — one block, copied from *Settings → MCP / API*.
+1. **Have a license key already?** → [Download the latest release](https://github.com/DamianTodorovic/kepta-pro-releases/releases/latest) and activate it with your name and key.
+2. **KEPTA Pro for yourself** → open the app, click **Upgrade to Pro** — checkout and license key arrive by email, handled by Paddle (our Merchant of Record). Or write to [Damian Todorovic on LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434).
+3. **KEPTA Enterprise** → same contact; Damian will discuss scope, deployment and the price with you — shaped to your organization.
+4. **Connect your AI** — one block, copied from *Settings → MCP / API*.
 
 ### 📦 Which file do I need?
 
@@ -323,7 +321,7 @@ KEPTA runs on macOS (Apple silicon and Intel) and Windows (x64 and ARM) — sinc
 
 ## 👋 Who builds KEPTA
 
-KEPTA is built by **Damian Todorovic**. Questions, a Pro license for yourself, a Business setup for your practice or firm, an Enterprise deployment for your organization: **[write to me on LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434)**.
+KEPTA is built by **Damian Todorovic**. Questions, a Pro license for yourself, or an Enterprise deployment for your organization: **[write to me on LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434)**.
 
 ## 📄 License
 
