@@ -209,20 +209,20 @@ You never brief it. There is one file on your computer; your assistants read it 
 
 ## 🚀 Get KEPTA
 
-**KEPTA comes in three tiers — a free open-source core, one desktop app that is free to use every day and unlocks fully with one license key, and Enterprise for organizations. Everything checks offline.**
+**KEPTA comes in three tiers — a free open-source core, one desktop app that starts with a free Pro day and unlocks fully with one license key, and Enterprise for organizations. Everything checks offline.**
 
 | Tier | For | Price | What you get |
 |---|---|---|---|
 | **Core** | Developers & AI agents | **€0** — [open source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), forever | The full memory engine: encryption, hybrid search, MCP server, HTTP API, Python client, CLI, browser UI, PDF & Obsidian import, device sync |
-| **Pro** | Individuals & power users | **€12/month or €120/year** — self-serve | The whole desktop experience, without limits: knowledge graph, chat with your memory, dossiers, Today, privacy shield, computer scan, clipper, inbox, auto-learn. Bought from inside the app; checked offline |
+| **Pro** | Individuals & power users | **€12/month or €120/year** — every download starts with **one free Pro day** | The whole desktop experience, without limits: knowledge graph, chat with your memory, dossiers, Today, privacy shield, computer scan, clipper, inbox, auto-learn. Bought from inside the app; checked offline |
 | **Enterprise** | Teams, practices & organizations | **By agreement** | Everything in Pro, plus team memory (shared knowledge, workspaces, roles, admin console), SSO, central policies, MDM/air-gapped deployment, security documentation and a support agreement |
 
-> Every license is a personal key bound to your name, activated offline — no account, no subscription lock-in, no phone-home. Without a key the app runs as the Free plan with generous daily limits — your data is never locked.
+> Every download starts with **one free Pro day** — 24 hours with every tool unlimited, no card, no account, no key. Then the app runs as the Free plan with generous daily limits — your data is never locked. Every license is a personal key bound to your name, activated offline — no account, no subscription lock-in, no phone-home.
 
 ### How to get a license
 
 1. **Have a license key already?** → [Download the latest release](https://github.com/DamianTodorovic/kepta-pro-releases/releases/latest) and activate it with your name and key.
-2. **KEPTA Pro for yourself** → open the app, click **Upgrade to Pro** — checkout and license key arrive by email, handled by Paddle (our Merchant of Record). Or write to [Damian Todorovic on LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434).
+2. **KEPTA Pro for yourself** → [download the app](https://github.com/DamianTodorovic/kepta-pro-releases/releases/latest) and use the free Pro day. When you want the limits gone, click **Upgrade to Pro** inside the app — the button points to the current way to buy; right now that is a direct message to [Damian Todorovic on LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434), and your key arrives in the same conversation.
 3. **KEPTA Enterprise** → same contact; Damian will discuss scope, deployment and the price with you — shaped to your organization.
 4. **Connect your AI** — one block, copied from *Settings → MCP / API*.
 
@@ -305,7 +305,7 @@ Yes. Your memory, the search, the graph and the license check all run on your ma
 <details>
 <summary><strong>What happens to my data without a license?</strong></summary>
 
-The window stays locked — never the data. Your knowledge base stays on disk, encrypted, and readable by the open-source core; your recovery key opens it on a new computer too.
+Nothing locks — ever. Without a key the app keeps running as the Free plan with generous daily limits, after every download's one free Pro day. Your knowledge base stays on disk, encrypted, and readable by the open-source core; your recovery key opens it on a new computer too.
 </details>
 
 <details>

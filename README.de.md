@@ -209,20 +209,20 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 
 ## 🚀 So bekommst du KEPTA
 
-**KEPTA gibt es in drei Stufen — einen kostenlosen Open-Source-Kern, eine Desktop-App, die täglich gratis nutzbar ist und sich mit einem Schlüssel voll freischaltet, und Enterprise für Organisationen. Alles wird offline geprüft.**
+**KEPTA gibt es in drei Stufen — einen kostenlosen Open-Source-Kern, eine Desktop-App, die mit einem Gratis-Pro-Tag startet und sich mit einem Schlüssel voll freischaltet, und Enterprise für Organisationen. Alles wird offline geprüft.**
 
 | Stufe | Für | Preis | Was du bekommst |
 |---|---|---|---|
 | **Core** | Entwickler & KI-Agenten | **0 €** — [Open Source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), für immer | Die komplette Memory-Engine: Verschlüsselung, Hybrid-Suche, MCP-Server, HTTP-API, Python-Client, CLI, Browser-UI, PDF- & Obsidian-Import, Device-Sync |
-| **Pro** | Einzelpersonen & Power User | **12 €/Monat oder 120 €/Jahr** — selbst bedient | Das ganze Desktop-Erlebnis ohne Limiten: Wissensgraph, Chat mit deinem Gedächtnis, Dossiers, Today, Privacy-Shield, Computer-Scan, Clipper, Inbox, Auto-Learn. Gekauft direkt in der App; offline geprüft |
+| **Pro** | Einzelpersonen & Power User | **12 €/Monat oder 120 €/Jahr** — jeder Download startet mit **einem Gratis-Pro-Tag** | Das ganze Desktop-Erlebnis ohne Limiten: Wissensgraph, Chat mit deinem Gedächtnis, Dossiers, Today, Privacy-Shield, Computer-Scan, Clipper, Inbox, Auto-Learn. Gekauft direkt in der App; offline geprüft |
 | **Enterprise** | Teams, Praxen & Organisationen | **Nach Absprache** | Alles aus Pro, plus Team-Gedächtnis (geteiltes Wissen, Workspaces, Rollen, Admin-Konsole), SSO, zentrale Richtlinien, MDM-/Air-gapped-Ausrollung, Security-Dokumentation und Support-Vereinbarung |
 
-> Jede Lizenz ist ein persönlicher Schlüssel, an deinen Namen gebunden, offline aktiviert — kein Konto, keine Abo-Falle, kein Nach-Hause-Telefonieren. Ohne Schlüssel läuft die App als Free mit großzügigen Tageslimiten — deine Daten sind nie gesperrt.
+> Jeder Download startet mit **einem Gratis-Pro-Tag** — 24 Stunden alle Werkzeuge ohne Limiten, ohne Karte, ohne Konto, ohne Schlüssel. Danach läuft die App als Free mit großzügigen Tageslimiten — deine Daten sind nie gesperrt. Jede Lizenz ist ein persönlicher Schlüssel, an deinen Namen gebunden, offline aktiviert — kein Konto, keine Abo-Falle, kein Nach-Hause-Telefonieren.
 
 ### So bekommst du eine Lizenz
 
 1. **Schon einen Lizenzschlüssel?** → [Neueste Version herunterladen](https://github.com/DamianTodorovic/kepta-pro-releases/releases/latest) und mit Namen und Schlüssel aktivieren.
-2. **KEPTA Pro für dich** → App öffnen, auf **Upgrade to Pro** klicken — Checkout und Schlüssel kommen per Mail, abgewickelt von Paddle (Merchant of Record). Oder schreib [Damian Todorovic auf LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434).
+2. **KEPTA Pro für dich** → [App herunterladen](https://github.com/DamianTodorovic/kepta-pro-releases/releases/latest) und den Gratis-Pro-Tag nutzen. Wenn die Limiten weg sollen: **Upgrade to Pro** in der App klicken — der Knopf zeigt auf den aktuell lebenden Weg; im Moment ist das eine direkte Nachricht an [Damian Todorovic auf LinkedIn](https://www.linkedin.com/in/damian-todorovic-244235434), dein Schlüssel kommt im selben Gespräch.
 3. **KEPTA Enterprise** → derselbe Kontakt; Damian bespricht Umfang, Ausrollung und den Preis mit dir — passend zu deiner Organisation.
 4. **Deine KI verbinden** — ein Block, kopiert aus *Settings → MCP / API*.
 
@@ -305,7 +305,7 @@ Ja. Dein Gedächtnis, die Suche, der Graph und die Lizenzprüfung laufen auf dei
 <details>
 <summary><strong>Was passiert ohne Lizenz mit meinen Daten?</strong></summary>
 
-Das Fenster bleibt gesperrt — nie die Daten. Deine Wissensbasis bleibt auf der Festplatte, verschlüsselt und lesbar für den quelloffenen Kern; mit deinem Wiederherstellungsschlüssel öffnest du sie auch auf einem neuen Rechner.
+Nichts wird jemals gesperrt. Ohne Schlüssel läuft die App als Free mit großzügigen Tageslimiten weiter — nach dem Gratis-Pro-Tag jedes Downloads. Deine Wissensbasis bleibt auf der Festplatte, verschlüsselt und lesbar für den quelloffenen Kern; mit deinem Wiederherstellungsschlüssel öffnest du sie auch auf einem neuen Rechner.
 </details>
 
 <details>
