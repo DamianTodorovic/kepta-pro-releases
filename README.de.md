@@ -1,5 +1,5 @@
 <p align="center"><img src="kepta-logo.svg" width="96" alt="KEPTA"></p>
-<h1 align="center">KEPTA Pro</h1>
+<h1 align="center">KEPTA Core</h1>
 <p align="center"><strong>Deine KI vergisst dich nach jedem Chat.<br>KEPTA erinnert sich — auf deinem eigenen Rechner, in einer verschlüsselten Datei.</strong></p>
 
 <p align="center"><sub>Die Desktop-App für das Gedächtnis deiner KI · lokal · verschlüsselt · keine Cloud · kein Konto · keine Telemetrie</sub></p>
@@ -18,7 +18,7 @@
   <a href="README.md"><b>🇬🇧 English</b></a>
 </p>
 
-<p align="center"><img src="docs/demo.gif" alt="Der Wissensgraph von KEPTA Pro wächst, während der Zeitregler 18 Monate an Notizen durchläuft, und wechselt dann zwischen seinen zwei Ansichten: Force, in der verbundene Notizen sich physikalisch zusammenfinden, und Tree, ein Baum von der Wurzel über die Wissensart bis zur Notiz" width="900"></p>
+<p align="center"><img src="docs/demo.gif" alt="Der Wissensgraph von KEPTA wächst, während der Zeitregler 18 Monate an Notizen durchläuft, und wechselt dann zwischen seinen zwei Ansichten: Force, in der verbundene Notizen sich physikalisch zusammenfinden, und Tree, ein Baum von der Wurzel über die Wissensart bis zur Notiz" width="900"></p>
 
 ---
 

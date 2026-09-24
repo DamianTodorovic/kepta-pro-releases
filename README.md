@@ -1,5 +1,5 @@
 <p align="center"><img src="kepta-logo.svg" width="96" alt="KEPTA"></p>
-<h1 align="center">KEPTA Pro</h1>
+<h1 align="center">KEPTA Core</h1>
 <p align="center"><strong>Your AI forgets you after every chat.<br>KEPTA remembers — on your own computer, in one encrypted file.</strong></p>
 
 <p align="center"><sub>The desktop app for your AI's memory · local · encrypted at rest · no cloud · no account · no telemetry</sub></p>
@@ -18,7 +18,7 @@
   <a href="README.de.md"><b>🇩🇪 Deutsch</b></a>
 </p>
 
-<p align="center"><img src="docs/demo.gif" alt="The knowledge graph of KEPTA Pro growing as the time slider runs through 18 months of notes, then switching between its two views: Force, where connected notes cluster by physics, and Tree, a dendrogram from the root over the kind of knowledge to the note" width="900"></p>
+<p align="center"><img src="docs/demo.gif" alt="The knowledge graph of KEPTA growing as the time slider runs through 18 months of notes, then switching between its two views: Force, where connected notes cluster by physics, and Tree, a dendrogram from the root over the kind of knowledge to the note" width="900"></p>
 
 ---
 
