@@ -211,6 +211,14 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 
 **KEPTA gibt es in drei Stufen — Core, den Gratis-Download, den du gerade vor dir hast: die ganze Desktop-App, die mit einem Gratis-Pro-Tag startet und dann mit Tageslimiten läuft, ohne je zu sperren. Pro ist der Lizenzschlüssel, der die Limiten entfernt. Enterprise ist für Organisationen. Alles wird offline geprüft.**
 
+```mermaid
+flowchart LR
+  D["Download<br/>KEPTA Core — 0 €<br/>die ganze App"] --> PD["Erste 24 h:<br/>ein Gratis-Pro-Tag<br/>alle Werkzeuge, ohne Limiten"]
+  PD --> L["Danach: Tageslimiten<br/>sie sperrt nie"]
+  L -->|"Lizenzschlüssel<br/>12 €/Monat oder 120 €/Jahr"| P["KEPTA Pro<br/>Limiten entfernt"]
+  P -.->|"Teams · SSO · MDM"| E["KEPTA Enterprise<br/>nach Absprache"]
+```
+
 | Stufe | Für | Preis | Was du bekommst |
 |---|---|---|---|
 | **Core** | Alle — herunterladen und loslegen | **0 €**, für immer — die Engine darunter ist [Open Source, AGPL-3.0](https://github.com/DamianTodorovic/kepta) | Die ganze Desktop-App: Wissensgraph, Chat mit deinem Gedächtnis, Dossiers, Today, Privacy-Shield, Computer-Scan, Clipper, Inbox — **ein Gratis-Pro-Tag mit jedem Download**, danach großzügige Tageslimiten; sie sperrt nie. Für Agenten und Skripte liefert Core auch kopflos: den kepta-mcp-Server (MCP, HTTP-API, Python-Client, CLI) |

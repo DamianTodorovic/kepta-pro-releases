@@ -211,6 +211,14 @@ You never brief it. There is one file on your computer; your assistants read it 
 
 **KEPTA comes in three tiers — Core, the free download you are looking at: the whole desktop app that starts with a free Pro day and then runs with daily limits, never locking. Pro is the license key that removes the limits. Enterprise is for organizations. Everything checks offline.**
 
+```mermaid
+flowchart LR
+  D["Download<br/>KEPTA Core — €0<br/>the whole app"] --> PD["First 24 h:<br/>one free Pro day<br/>every tool, unlimited"]
+  PD --> L["Then: daily limits<br/>it never locks"]
+  L -->|"license key<br/>€12/month or €120/year"| P["KEPTA Pro<br/>limits removed"]
+  P -.->|"teams · SSO · MDM"| E["KEPTA Enterprise<br/>by agreement"]
+```
+
 | Tier | For | Price | What you get |
 |---|---|---|---|
 | **Core** | Everyone — download and use | **€0**, forever — the engine underneath is [open source, AGPL-3.0](https://github.com/DamianTodorovic/kepta) | The whole desktop app: knowledge graph, chat with your memory, dossiers, Today, privacy shield, computer scan, clipper, inbox — **one free Pro day with every download**, then generous daily limits; it never locks. For agents and scripts, Core also ships headless: the kepta-mcp server (MCP, HTTP API, Python client, CLI) |
