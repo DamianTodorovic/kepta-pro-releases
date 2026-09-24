@@ -209,15 +209,15 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 
 ## 🚀 So bekommst du KEPTA
 
-**KEPTA gibt es in drei Stufen — einen kostenlosen Open-Source-Kern, eine Desktop-App, die mit einem Gratis-Pro-Tag startet und sich mit einem Schlüssel voll freischaltet, und Enterprise für Organisationen. Alles wird offline geprüft.**
+**KEPTA gibt es in drei Stufen — Core, den Gratis-Download, den du gerade vor dir hast: die ganze Desktop-App, die mit einem Gratis-Pro-Tag startet und dann mit Tageslimiten läuft, ohne je zu sperren. Pro ist der Lizenzschlüssel, der die Limiten entfernt. Enterprise ist für Organisationen. Alles wird offline geprüft.**
 
 | Stufe | Für | Preis | Was du bekommst |
 |---|---|---|---|
-| **Core** | Entwickler & KI-Agenten | **0 €** — [Open Source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), für immer | Die komplette Memory-Engine: Verschlüsselung, Hybrid-Suche, MCP-Server, HTTP-API, Python-Client, CLI, PDF- & Obsidian-Import, Device-Sync |
-| **Pro** | Einzelpersonen & Power User | **12 €/Monat oder 120 €/Jahr** — jeder Download startet mit **einem Gratis-Pro-Tag** | Das ganze Desktop-Erlebnis ohne Limiten: Wissensgraph, Chat mit deinem Gedächtnis, Dossiers, Today, Privacy-Shield, Computer-Scan, Clipper, Inbox, Auto-Learn. Gekauft direkt in der App; offline geprüft |
+| **Core** | Alle — herunterladen und loslegen | **0 €**, für immer — die Engine darunter ist [Open Source, AGPL-3.0](https://github.com/DamianTodorovic/kepta) | Die ganze Desktop-App: Wissensgraph, Chat mit deinem Gedächtnis, Dossiers, Today, Privacy-Shield, Computer-Scan, Clipper, Inbox — **ein Gratis-Pro-Tag mit jedem Download**, danach großzügige Tageslimiten; sie sperrt nie. Für Agenten und Skripte liefert Core auch kopflos: den kepta-mcp-Server (MCP, HTTP-API, Python-Client, CLI) |
+| **Pro** | Einzelpersonen & Power User | **12 €/Monat oder 120 €/Jahr** — ein offline geprüfter Lizenzschlüssel | Dieselbe App ohne die Limiten: Chat, Clipper, Computer-Scan, Dossiers, Audit-Export — alles, unbegrenzt. An deinen Namen gebunden, offline geprüft, kein Konto |
 | **Enterprise** | Teams, Praxen & Organisationen | **Nach Absprache** | Alles aus Pro, plus Team-Gedächtnis (geteiltes Wissen, Workspaces, Rollen, Admin-Konsole), SSO, zentrale Richtlinien, MDM-/Air-gapped-Ausrollung, Security-Dokumentation und Support-Vereinbarung |
 
-> Jeder Download startet mit **einem Gratis-Pro-Tag** — 24 Stunden alle Werkzeuge ohne Limiten, ohne Karte, ohne Konto, ohne Schlüssel. Danach läuft die App als Free mit großzügigen Tageslimiten — deine Daten sind nie gesperrt. Jede Lizenz ist ein persönlicher Schlüssel, an deinen Namen gebunden, offline aktiviert — kein Konto, keine Abo-Falle, kein Nach-Hause-Telefonieren.
+> Jeder Download startet mit **einem Gratis-Pro-Tag** — 24 Stunden alle Werkzeuge ohne Limiten, ohne Karte, ohne Konto, ohne Schlüssel. Danach läuft Core mit großzügigen Tageslimiten weiter — deine Daten sind nie gesperrt. Jede Lizenz ist ein persönlicher Schlüssel, an deinen Namen gebunden, offline aktiviert — kein Konto, keine Abo-Falle, kein Nach-Hause-Telefonieren.
 
 ### So bekommst du eine Lizenz
 

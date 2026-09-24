@@ -209,15 +209,15 @@ You never brief it. There is one file on your computer; your assistants read it 
 
 ## 🚀 Get KEPTA
 
-**KEPTA comes in three tiers — a free open-source core, one desktop app that starts with a free Pro day and unlocks fully with one license key, and Enterprise for organizations. Everything checks offline.**
+**KEPTA comes in three tiers — Core, the free download you are looking at: the whole desktop app that starts with a free Pro day and then runs with daily limits, never locking. Pro is the license key that removes the limits. Enterprise is for organizations. Everything checks offline.**
 
 | Tier | For | Price | What you get |
 |---|---|---|---|
-| **Core** | Developers & AI agents | **€0** — [open source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), forever | The full memory engine: encryption, hybrid search, MCP server, HTTP API, Python client, CLI, PDF & Obsidian import, device sync |
-| **Pro** | Individuals & power users | **€12/month or €120/year** — every download starts with **one free Pro day** | The whole desktop experience, without limits: knowledge graph, chat with your memory, dossiers, Today, privacy shield, computer scan, clipper, inbox, auto-learn. Bought from inside the app; checked offline |
+| **Core** | Everyone — download and use | **€0**, forever — the engine underneath is [open source, AGPL-3.0](https://github.com/DamianTodorovic/kepta) | The whole desktop app: knowledge graph, chat with your memory, dossiers, Today, privacy shield, computer scan, clipper, inbox — **one free Pro day with every download**, then generous daily limits; it never locks. For agents and scripts, Core also ships headless: the kepta-mcp server (MCP, HTTP API, Python client, CLI) |
+| **Pro** | Individuals & power users | **€12/month or €120/year** — one offline license key | The same app with the limits removed: chat, clipper, computer scan, dossiers, audit export — everything, unlimited. Bound to your name, checked offline, no account |
 | **Enterprise** | Teams, practices & organizations | **By agreement** | Everything in Pro, plus team memory (shared knowledge, workspaces, roles, admin console), SSO, central policies, MDM/air-gapped deployment, security documentation and a support agreement |
 
-> Every download starts with **one free Pro day** — 24 hours with every tool unlimited, no card, no account, no key. Then the app runs as the Free plan with generous daily limits — your data is never locked. Every license is a personal key bound to your name, activated offline — no account, no subscription lock-in, no phone-home.
+> Every download starts with **one free Pro day** — 24 hours with every tool unlimited, no card, no account, no key. Then Core keeps running with generous daily limits — your data is never locked. Every license is a personal key bound to your name, activated offline — no account, no subscription lock-in, no phone-home.
 
 ### How to get a license
 
