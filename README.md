@@ -82,7 +82,7 @@ You never brief it. There is one file on your computer; your assistants read it 
 - **Audit log** — every access to your knowledge, by you, by each AI app and by scripts; every entry is sealed with the SHA-256 of the one before, and *Check integrity* shows whether anything was changed or removed. Export as CSV
 - **Hardened desktop shell** — no Node in the window, sandbox on, a strict Content Security Policy
 - Rate limiting, Helmet and input validation on every route
-- **Your data is never a hostage:** without a key the app runs as the Free plan with generous daily limits — and your data is never locked. The file stays on disk, encrypted, and readable by the [open core](https://github.com/DamianTodorovic/kepta)
+- **Your data is never a hostage:** without a key the app keeps running as Core with generous daily limits — and your data is never locked. The file stays on disk, encrypted, and readable by the [open core](https://github.com/DamianTodorovic/kepta)
 
 </details>
 
@@ -305,7 +305,7 @@ Yes. Your memory, the search, the graph and the license check all run on your ma
 <details>
 <summary><strong>What happens to my data without a license?</strong></summary>
 
-Nothing locks — ever. Without a key the app keeps running as the Free plan with generous daily limits, after every download's one free Pro day. Your knowledge base stays on disk, encrypted, and readable by the open-source core; your recovery key opens it on a new computer too.
+Nothing locks — ever. Without a key the app keeps running as Core with generous daily limits, after every download's one free Pro day. Your knowledge base stays on disk, encrypted, and readable by the open-source core; your recovery key opens it on a new computer too.
 </details>
 
 <details>

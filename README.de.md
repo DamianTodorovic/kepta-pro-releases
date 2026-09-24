@@ -82,7 +82,7 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 - **Prüfprotokoll** — jeder Zugriff auf dein Wissen, von dir, von jeder KI-App und von Skripten; jeder Eintrag ist mit dem SHA-256 des vorigen versiegelt, *Check integrity* zeigt, ob etwas geändert oder entfernt wurde. Export als CSV
 - **Gehärtete Desktop-Hülle** — kein Node im Fenster, Sandbox an, strenge Content Security Policy
 - Ratenbegrenzung, Helmet und Eingabeprüfung auf jeder Route
-- **Deine Daten sind nie Geisel:** ohne Schlüssel läuft die App als Free mit großzügigen Tageslimiten — und deine Daten sind nie gesperrt. Die Datei bleibt auf der Festplatte, verschlüsselt, und lesbar für den [offenen Kern](https://github.com/DamianTodorovic/kepta)
+- **Deine Daten sind nie Geisel:** ohne Schlüssel läuft die App als Core mit großzügigen Tageslimiten — und deine Daten sind nie gesperrt. Die Datei bleibt auf der Festplatte, verschlüsselt, und lesbar für den [offenen Kern](https://github.com/DamianTodorovic/kepta)
 
 </details>
 
@@ -305,7 +305,7 @@ Ja. Dein Gedächtnis, die Suche, der Graph und die Lizenzprüfung laufen auf dei
 <details>
 <summary><strong>Was passiert ohne Lizenz mit meinen Daten?</strong></summary>
 
-Nichts wird jemals gesperrt. Ohne Schlüssel läuft die App als Free mit großzügigen Tageslimiten weiter — nach dem Gratis-Pro-Tag jedes Downloads. Deine Wissensbasis bleibt auf der Festplatte, verschlüsselt und lesbar für den quelloffenen Kern; mit deinem Wiederherstellungsschlüssel öffnest du sie auch auf einem neuen Rechner.
+Nichts wird jemals gesperrt. Ohne Schlüssel läuft die App als Core mit großzügigen Tageslimiten weiter — nach dem Gratis-Pro-Tag jedes Downloads. Deine Wissensbasis bleibt auf der Festplatte, verschlüsselt und lesbar für den quelloffenen Kern; mit deinem Wiederherstellungsschlüssel öffnest du sie auch auf einem neuen Rechner.
 </details>
 
 <details>
