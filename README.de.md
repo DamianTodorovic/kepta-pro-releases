@@ -213,7 +213,7 @@ Du musst ihn nie briefen. Auf deinem Rechner liegt eine Datei; deine Assistenten
 
 | Stufe | Für | Preis | Was du bekommst |
 |---|---|---|---|
-| **Core** | Entwickler & KI-Agenten | **0 €** — [Open Source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), für immer | Die komplette Memory-Engine: Verschlüsselung, Hybrid-Suche, MCP-Server, HTTP-API, Python-Client, CLI, Browser-UI, PDF- & Obsidian-Import, Device-Sync |
+| **Core** | Entwickler & KI-Agenten | **0 €** — [Open Source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), für immer | Die komplette Memory-Engine: Verschlüsselung, Hybrid-Suche, MCP-Server, HTTP-API, Python-Client, CLI, PDF- & Obsidian-Import, Device-Sync |
 | **Pro** | Einzelpersonen & Power User | **12 €/Monat oder 120 €/Jahr** — jeder Download startet mit **einem Gratis-Pro-Tag** | Das ganze Desktop-Erlebnis ohne Limiten: Wissensgraph, Chat mit deinem Gedächtnis, Dossiers, Today, Privacy-Shield, Computer-Scan, Clipper, Inbox, Auto-Learn. Gekauft direkt in der App; offline geprüft |
 | **Enterprise** | Teams, Praxen & Organisationen | **Nach Absprache** | Alles aus Pro, plus Team-Gedächtnis (geteiltes Wissen, Workspaces, Rollen, Admin-Konsole), SSO, zentrale Richtlinien, MDM-/Air-gapped-Ausrollung, Security-Dokumentation und Support-Vereinbarung |
 

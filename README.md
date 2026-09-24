@@ -213,7 +213,7 @@ You never brief it. There is one file on your computer; your assistants read it 
 
 | Tier | For | Price | What you get |
 |---|---|---|---|
-| **Core** | Developers & AI agents | **€0** — [open source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), forever | The full memory engine: encryption, hybrid search, MCP server, HTTP API, Python client, CLI, browser UI, PDF & Obsidian import, device sync |
+| **Core** | Developers & AI agents | **€0** — [open source, AGPL-3.0](https://github.com/DamianTodorovic/kepta), forever | The full memory engine: encryption, hybrid search, MCP server, HTTP API, Python client, CLI, PDF & Obsidian import, device sync |
 | **Pro** | Individuals & power users | **€12/month or €120/year** — every download starts with **one free Pro day** | The whole desktop experience, without limits: knowledge graph, chat with your memory, dossiers, Today, privacy shield, computer scan, clipper, inbox, auto-learn. Bought from inside the app; checked offline |
 | **Enterprise** | Teams, practices & organizations | **By agreement** | Everything in Pro, plus team memory (shared knowledge, workspaces, roles, admin console), SSO, central policies, MDM/air-gapped deployment, security documentation and a support agreement |
 
