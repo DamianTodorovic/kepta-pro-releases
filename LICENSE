@@ -1,12 +1,15 @@
-KEPTA Enterprise
-================
+KEPTA
+=====
 
 Copyright (c) 2026 Damian Todorovic. All rights reserved.
 
 The installers in this repository contain proprietary software. You may
-download them; using KEPTA Enterprise requires a license key issued by
-Damian Todorovic. No redistribution and no modification without express
-written permission.
+download and use the app free of charge as KEPTA Core: one free Pro day
+with every install, then daily limits — it never locks, and your data
+stays readable. KEPTA Pro is the license key that removes the daily
+limits; keys are issued by Damian Todorovic. Enterprise is available by
+agreement. No redistribution and no modification without express written
+permission.
 
 The open core of KEPTA (memory engine, MCP server, HTTP API) is licensed
 under the AGPL-3.0: https://github.com/DamianTodorovic/kepta

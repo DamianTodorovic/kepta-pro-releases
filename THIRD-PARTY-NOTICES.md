@@ -1,6 +1,6 @@
-# Third-party software in KEPTA Enterprise
+# Third-party software in KEPTA
 
-KEPTA Enterprise is proprietary software, but it builds on open source. This
+KEPTA (the desktop application) is proprietary software, but it builds on open source. This
 file lists the bundled components and their licenses. The open memory engine
 underneath is licensed separately (AGPL-3.0, see [DamianTodorovic/kepta](https://github.com/DamianTodorovic/kepta)).
 
